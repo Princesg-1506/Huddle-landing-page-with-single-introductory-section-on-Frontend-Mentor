@@ -1,11 +1,11 @@
 
 @media (max-width: 800px) {
     body {
-    background-image: url(images/bg-mobile.svg);                
+    background-image: url(../images/bg-mobile.svg);                
     background-position:top;
     background-size: contain;
     padding: 25px;
-    overflow: hidden;
+    /* overflow: hidden; */
     }
 
     .hero-view {
