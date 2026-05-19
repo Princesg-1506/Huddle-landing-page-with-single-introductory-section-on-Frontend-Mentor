@@ -17,7 +17,7 @@
 
 body {
     background-color: var(--Purple-700);
-    background-image: url(images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
     background-size: contain;
     background-position:left;
     background-repeat: no-repeat;
