@@ -1,0 +1,54 @@
+
+@media (max-width: 800px) {
+    body {
+    background-image: url(images/bg-mobile.svg);                
+    background-position:top;
+    background-size: contain;
+    padding: 25px;
+    overflow: hidden;
+    }
+
+    .hero-view {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;   
+}
+
+.hero-img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    min-width: 200px;
+    max-width: 550px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    gap: 10px;
+}
+
+header img {
+    display: block;
+    margin-right: auto;
+    width: 150px;
+}
+.headline-txt {
+    line-height: 35px;
+    color: var(--white);
+}
+
+p {
+    font-size: clamp(15px, 1vw, 19px);
+    line-height: 23px;
+}
+
+.socials {
+    justify-content: center;
+    margin-top: 7em;
+}
+}
